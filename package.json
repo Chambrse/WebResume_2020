@@ -1,0 +1,24 @@
+{
+  "name": "webresume_2020",
+  "version": "1.0.0",
+  "description": "An updated portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chambrse/WebResume_2020.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chambrse/WebResume_2020/issues"
+  },
+  "homepage": "https://github.com/Chambrse/WebResume_2020#readme",
+  "dependencies": {
+    "aos": "^2.3.4",
+    "matter-js": "^0.14.2",
+    "matter-wrap": "^0.2.0"
+  }
+}

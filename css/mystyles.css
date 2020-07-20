@@ -1,0 +1,72 @@
+.portImage {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+.portRow {
+    height: fit-content;
+    transition: .5s ease;
+    flex-wrap: initial;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.portRow:hover {
+    cursor: pointer;
+    /* background-color: #bd795e; */
+    box-shadow: 0 0 0 3px #bd5d38;
+    transition: .5s ease;
+}
+
+.hi-icon-effect {
+    width: 100px;
+    height: 100px;
+    font-size: 30px;
+    color: #fff;
+    /* padding: 50px; */
+    background: #bd5d38;
+    /* border-radius: 50%; */
+    padding-left:10px; 
+    padding-right:10px;
+    display: flex;
+    margin-right: 20px;
+}
+
+.icon {
+    display: block;
+    margin: auto;
+}
+
+a {
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+  }
+
+  a:hover {
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+  }
+
+.btn.subheading {
+    background: #bd5d38;
+    border-radius: 0;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.btn.subheading:hover {
+    color: white;
+}
+
+ul.experienceList {
+    list-style: none; /* Remove default bullets */
+  }
+  
+  ul.experienceList li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #bd5d38; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+  }
