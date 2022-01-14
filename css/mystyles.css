@@ -70,3 +70,71 @@ ul.experienceList {
     width: 1em; /* Also needed for space (tweak if needed) */
     margin-left: -1em; /* Also needed for space (tweak if needed) */
   }
+
+  /* @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700");
+ body {
+	 font-family: 'Open Sans', sans-serif;
+	 margin: 0;
+	 padding: 0 4em;
+} */
+#myDataJourney main {
+	 min-width: 300px;
+	 max-width: 500px;
+	 margin: auto;
+}
+#myDataJourney .journeyItem {
+	 font-size: 1em;
+	 line-height: 1.75em;
+	 border-top: 3px solid;
+	 border-image: linear-gradient(to right, #bd5d38 0%, #bd5d38 100%);
+	 border-image-slice: 1;
+	 border-width: 3px;
+	 margin: 0;
+	 padding: 40px;
+	 counter-increment: section;
+	 position: relative;
+	 color: #34435e;
+}
+#myDataJourney .journeyItem:before {
+	 content: counter(section);
+	 position: absolute;
+	 border-radius: 50%;
+	 /* padding: 10px; */
+	 height: 1.5em;
+	 width: 1.5em;
+	 background-color: #bd5d38;
+	 text-align: center;
+	 line-height: 1.25em;
+	 color: #fff;
+	 font-size: 1em;
+}
+#myDataJourney .journeyItem:nth-child(odd) {
+	 border-right: 3px solid;
+	 padding-left: 0;
+}
+#myDataJourney .journeyItem:nth-child(odd):before {
+	 left: 100%;
+	 margin-left: -9px;
+}
+#myDataJourney .journeyItem:nth-child(even) {
+	 border-left: 3px solid;
+	 padding-right: 0;
+}
+#myDataJourney .journeyItem:nth-child(even):before {
+	 right: 100%;
+	 margin-right: -9px;
+}
+#myDataJourney .journeyItem:first-child {
+	 border-top: 0;
+	 border-top-right-radius: 0;
+	 border-top-left-radius: 0;
+}
+#myDataJourney .journeyItem:last-child {
+	 border-bottom-right-radius: 0;
+	 border-bottom-left-radius: 0;
+}
+
+#myDataJourney .journeyItem:nth-child(odd) h4 {
+    text-align: right;
+
+}

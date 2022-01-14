@@ -19,6 +19,7 @@
   "dependencies": {
     "aos": "^2.3.4",
     "matter-js": "^0.14.2",
-    "matter-wrap": "^0.2.0"
+    "matter-wrap": "^0.2.0",
+    "node-sass": "^7.0.1"
   }
 }
